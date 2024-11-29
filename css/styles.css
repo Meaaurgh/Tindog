@@ -1,0 +1,215 @@
+/* GENERAL SELECTORS */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    font-size: 0.9rem;
+    color: #8f8f8f;
+}
+
+body{
+    text-align: center;
+}
+
+
+/* HEADINGS ---------------------------------------------------------------------*/
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900; /* Black corresponds to weight 900 */
+    font-size: 4rem ;
+    line-height: 1.5 ;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    color: white ;
+}
+
+/* SECTIONS ---------------------------------------------------------------------*/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+    color: black;
+}
+
+/* NAVBAR AND TITLE ------------------------------------------------------------*/
+
+#title{
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.navbar-brand{
+    padding-left: 15px;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: rgb(227, 227, 227);
+}
+
+.nav-item{
+    padding: 0 2rem 0 2rem;
+    text-shadow: 1px 1px 2px rgb(134, 134, 134);
+}
+
+
+ .container-fluid{
+    padding: 3% 15% !important;
+}
+
+.img-fluid{
+    transform: rotate(25deg) scale(0.8);  
+    position: absolute;
+    top:180px;
+    right: 20%;
+}
+
+.btn i {
+    vertical-align: middle;
+}
+
+
+/* FEATURES -------------------------------------------------------------------*/
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+#features .bi{               
+    width: 4rem;
+    height: auto;
+    color: #ef8172;
+    padding-bottom: 1.5rem;
+}
+
+#features .bi:hover{
+    color: #ff4c68;
+    transition: color 0.3s;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    color: black;
+    padding-top: 5px;
+}
+
+
+/* TESTIMONIALS ---------------------------------------------------------------*/
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    height: auto;
+    border-radius: 100%;  
+    margin: 50px 30px; 
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    /* text-align: center; */
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    height: auto;
+    margin: 3%;
+}
+
+
+
+/* PRICING ---------------------------------------------------------------------*/
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-head{
+    padding-top: 4%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing .btn{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .img-fluid{
+        position: static;
+        transform: rotate(0);
+        padding-top: 80px;
+    }
+}
+
+
+/* CALL TO ACTION --------------------------------------------------------------*/
+
+#cta h1{
+    padding: 60px auto 60px auto;
+    color: white;
+}
+
+#cta button{
+    margin: 3%;
+}
+
+#footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+#footer .bi{
+    margin: 10px;
+}
+
+#footer p{
+    padding-top: 10px;
+
+}
+
+
+
